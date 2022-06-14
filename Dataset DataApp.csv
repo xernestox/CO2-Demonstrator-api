@@ -1,0 +1,26 @@
+Section,Tier,Type,Resources per Tyre,Unit,Co2e Emissions (kg) conversion factor,CO2e Emissions (kg) per Tyre
+Tire Building,OEM,Process,1.15,kWh,1.17,1.3455
+Tire Curing,OEM,Process,1.75,kWh,1.17,3.0625
+Visual Inspection,OEM,Process,0,kWh,1.17,0
+Balance Inspection,OEM,Process,0.2,kWh,1.17,0.234
+Force and Moment Inspection,OEM,Process,0.3,kWh,1.17,0.351
+X-Ray Inspection,OEM,Process,0.1,kWh,1.17,0.117
+Fabric Cord ,Tier 1,Process,1.5,kWh,1.17,1.755
+Fabric Ply Cutting,Tier 1,Process,0.95,kWh,1.17,1.1115
+Steel Belt Calendering,Tier 1,Process,1.5,kWh,1.17,1.755
+Steel Belt Cutting,Tier 1,Process,0.95,kWh,1.17,1.1115
+Bead Assembling,Tier 1,Process,0.8,kWh,1.17,0.936
+Tread and Sidewall Extruding,Tier 1,Process,0.75,kWh,1.17,0.8775
+Innerliner Calendering,Tier 1,Process,0.7,kWh,1.17,0.819
+Natural Rubber,Tier 2,Material,1.7,kg,2.5,4.25
+SBR Rubber,Tier 2,Material,2.768,kg,6.29,17.41072
+Silica,Tier 2,Material,0.128,kg,5.27,0.67456
+Zinc oxide,Tier 2,Material,0.08,kg,3.46,0.2768
+Stearic acid,Tier 2,Material,0.096,kg,2.05,0.1968
+Sulfur,Tier 2,Material,0.106,kg,4.62,0.48972
+Textiles (Nylon),Tier 2,Material,0.36,kg,3.6,1.296
+Bead Wire,Tier 2,Material,0.9,kg,2.26,2.034
+Brandbury Mixer,Tier 2,Process,7.8,kWh,1.17,9.126
+Fabric Cord Manufacturing,Tier 2,Process,7.8,kWh,1.17,9.126
+Bead and Belt Manufacturing,Tier 2,Process,7.8,kWh,1.17,9.126
+Steel Cord Manufacturing,Tier 2,Process,7.8,kWh,1.17,9.126
