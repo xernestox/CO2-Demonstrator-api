@@ -1,0 +1,7 @@
+Section,Type,Resources per Tyre,Unit,Co2e Emissions (kg) conversion factor,CO2e Emissions (kg) per Tyre
+Tire Building,Process,1.15,kWh,1.17,1.3455
+Tire Curing,Process,1.75,kWh,1.17,3.0625
+Visual Inspection,Process,0,kWh,1.17,0
+Balance Inspection,Process,0.2,kWh,1.17,0.234
+Force and Moment Inspection,Process,0.3,kWh,1.17,0.351
+X-Ray Inspection,Process,0.1,kWh,1.17,0.117

@@ -83,8 +83,54 @@ async def root():
 
     return co2data
 
-@app.get("/csvcompany1")
-async def csvcompany1():
+@app.get("/connected-datasets")
+async def connecteddatasets():
+
+    file_table = pd.read_csv('Dataset DataApp ConnectedDatasets.csv')
+    file_dataFrame = pd.DataFrame(file_table)
+
+    connectedDatasets = {
+    "file_dataFrame": file_dataFrame,
+    }
+    
+    return connectedDatasets
+
+@app.get("/oem")
+async def oem():
+
+    file_table = pd.read_csv('Dataset DataApp OEM.csv')
+    file_dataFrame = pd.DataFrame(file_table)
+    file_dataFrame = file_dataFrame.round(decimals=2)
+
+    oemco2data = {
+    "file_dataFrame": file_dataFrame,
+    }
+    
+    return oemco2data
+
+@app.get("/tier1")
+async def tier1():
+
+    file_table = pd.read_csv('Dataset DataApp Tier 1.csv')
+    file_dataFrame = pd.DataFrame(file_table)
+    file_dataFrame = file_dataFrame.round(decimals=2)
+
+    tier1co2data = {
+    "file_dataFrame": file_dataFrame,
+    }
+    
+    return tier1co2data
+
+@app.get("/tier2")
+async def tier2():
+
+    file_table = pd.read_csv('Dataset DataApp Tier 2.csv')
+    file_dataFrame = pd.DataFrame(file_table)
+    file_dataFrame = file_dataFrame.round(decimals=2)
 
 
-    return "Hello company 1"
+    tier2co2data = {
+    "file_dataFrame": file_dataFrame,
+    }
+    
+    return tier2co2data
