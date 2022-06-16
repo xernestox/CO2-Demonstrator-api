@@ -83,7 +83,7 @@ async def root():
 
     return co2data
 
-@app.get("/connected-datasets")
+@app.get("/datasets")
 async def connecteddatasets():
 
     file_table = pd.read_csv('Dataset DataApp ConnectedDatasets.csv')
@@ -95,10 +95,10 @@ async def connecteddatasets():
     
     return connectedDatasets
 
-@app.get("/oem")
+@app.get("/0")
 async def oem():
 
-    file_table = pd.read_csv('Dataset DataApp OEM.csv')
+    file_table = pd.read_csv('0.csv')
     file_dataFrame = pd.DataFrame(file_table)
     file_dataFrame = file_dataFrame.round(decimals=2)
 
@@ -108,10 +108,10 @@ async def oem():
     
     return oemco2data
 
-@app.get("/tier1")
+@app.get("/1")
 async def tier1():
 
-    file_table = pd.read_csv('Dataset DataApp Tier 1.csv')
+    file_table = pd.read_csv('1.csv')
     file_dataFrame = pd.DataFrame(file_table)
     file_dataFrame = file_dataFrame.round(decimals=2)
 
@@ -121,10 +121,10 @@ async def tier1():
     
     return tier1co2data
 
-@app.get("/tier2")
+@app.get("/2")
 async def tier2():
 
-    file_table = pd.read_csv('Dataset DataApp Tier 2.csv')
+    file_table = pd.read_csv('2.csv')
     file_dataFrame = pd.DataFrame(file_table)
     file_dataFrame = file_dataFrame.round(decimals=2)
 

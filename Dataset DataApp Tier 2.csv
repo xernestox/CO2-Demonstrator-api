@@ -1,8 +1,0 @@
-Section,Type,Resources per Tyre,Unit,Co2e Emissions (kg) conversion factor,CO2e Emissions (kg) per Tyre
-Fabric Cord,Process,1.5,kWh,1.17,1.755
-Fabric Ply Cutting,Process,0.95,kWh,1.17,1.1115
-Steel Belt Calendering,Process,1.5,kWh,1.17,1.755
-Steel Belt Cutting,Process,0.95,kWh,1.17,1.1115
-Bead Assembling,Process,0.8,kWh,1.17,0.936
-Tread and Sidewall Extruding,Process,0.75,kWh,1.17,0.8775
-Innerliner Calendering,Process,0.7,kWh,1.17,0.819
